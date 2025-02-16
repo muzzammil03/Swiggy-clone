@@ -1,5 +1,4 @@
 import './App.css';
-import Footer from './components/Footer.jsx';
 import Header from './components/Header.jsx';
 import Search from './routes/Search.jsx';
 import SignIn from './routes/SignIn.jsx';
