@@ -1,9 +1,6 @@
 import './App.css';
-// import Category from './components/Category.jsx';
 import Footer from './components/Footer.jsx';
 import Header from './components/Header.jsx';
-// import OnlineDelivery from './components/OnlineDelivery.jsx';
-// import TopResturant from './components/TopResturant.jsx';
 import Search from './routes/Search.jsx';
 import SignIn from './routes/SignIn.jsx';
 import Help from './routes/Help.jsx';
@@ -18,8 +15,7 @@ function App() {
    <>
    <Header setIsOpen={setIsOpen}/>
    <SignIn isOpen={isOpen} setIsOpen={setIsOpen} />
-   {/* <Search/> */}
-   {/* <Help/> */}
+
    <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/help" element={<Help />} />
@@ -32,5 +28,4 @@ function App() {
    </>
   );
 }
-{/* <Route path="/offers" element={<About />} /> */}
 export default App;
