@@ -11,7 +11,7 @@ const Category = () => {
     let category = 20;
 
     const prevSlide = () => {
-        if (slide == 0) return false  // if we are at the first slide, do nothing and return
+        if (slide === 0) return false  // if we are at the first slide, do nothing and return
         setSlide(slide - 3);
 
     }
